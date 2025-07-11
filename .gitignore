@@ -1,0 +1,53 @@
+# Audio files and data directories (too large for GitHub)
+audio_2021_chunk_*/
+*.wav
+*.WAV
+
+# Cached files
+features_cached.pkl
+labels_cached.pkl
+*.pkl
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.pages
+wagglenet_apr17_Work.pages
+
+# Model files (if any)
+*.model
+*.h5
+*.joblib
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large CSV files (optional - uncomment if too large)
+# audio_file_labels_asof.csv
